@@ -14,10 +14,10 @@ double getDistance2(struct Wheel *wheel);
 int main(void)
 {
     struct Wheel wheel = {4.5, 60};
-    double DistanceTraveledByWheel;
+    double distanceTraveledByWheel;
 
-    DistanceTraveledByWheel = getDistance2(&wheel);
-    cout << "DistanceTraveledByWheel = " << DistanceTraveledByWheel << "\n";
+    distanceTraveledByWheel = getDistance2(&wheel);
+    cout << "distanceTraveledByWheel = " << distanceTraveledByWheel << "\n";
 
     return 0;
 }
