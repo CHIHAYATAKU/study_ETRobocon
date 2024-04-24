@@ -10,7 +10,7 @@ struct Wheel
 
 int main(void)
 {
-    struct Wheel wheel = {4.5, 60};
+    Wheel wheel = {4.5, 60};
 
     cout << "radius = " << wheel.radius << "\n";
     cout << "angle = " << wheel.angle << "\n";
