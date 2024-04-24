@@ -9,7 +9,7 @@ struct Wheel
     int angle;
 };
 
-double getDistance3(Wheel wheel);
+double getDistance3(Wheel &wheel);
 
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
     return 0;
 }
 
-double getDistance3(Wheel wheel)
+double getDistance3(Wheel &wheel)
 {
     return wheel.radius * 2 * M_PI * ((double)wheel.angle / 360);
 }
