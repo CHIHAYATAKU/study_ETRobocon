@@ -24,5 +24,5 @@ int main(void)
 
 double getDistance2(Wheel *wheel)
 {
-    return wheel->radius * 2 * M_PI * ((double)wheel->angle / 360);
+    return wheel->radius * 2 * M_PI * ((double)wheel->angle / 360.0);
 }
